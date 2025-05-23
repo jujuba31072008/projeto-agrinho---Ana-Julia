@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root { 
+    --cor-principal: #45b326; 
+    --cor-secundaria: #3483de;
+    --cor-destaque: #6aa9f1;
+}
+ body { 
+    font-family: "Libre Baskerville", cursive;
+ } 
+ h1,h2,h5 { 
+    color: var(--corprincipal #45b326); 
+    font-weight: 700;
+ } 
+ lead{ 
+    color: var(--cor-destaque #3483de); 
+    font-weight: 700;
+ } 
+ footer a,bnt-light :hover {
+     color: var(--cor-secundaria #6aa9f1)
+ } 
+ footer a:hover { 
+    color: var(--cor-principal #45b326 )
+ }
