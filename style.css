@@ -1,25 +1,41 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poetsen+One&display=swap');
+
 
 :root { 
-    --cor-principal: #45b326; 
+    --cor-principal: #38be13; 
     --cor-secundaria: #3483de;
     --cor-destaque: #6aa9f1;
 }
  body { 
-    font-family: "Libre Baskerville", cursive;
+    font-family:"Libre Baskerville", serif;
+    background-color:rgb(237, 237, 240);
  } 
  h1,h2,h5 { 
-    color: var(--corprincipal #45b326); 
+    color: var(--cor-principal); 
     font-weight: 700;
  } 
  lead{ 
-    color: var(--cor-destaque #3483de); 
+    color: var(--cor-destaque); 
     font-weight: 700;
  } 
  footer a,bnt-light :hover {
-     color: var(--cor-secundaria #6aa9f1)
+     color: var(--cor-secundaria);
  } 
  footer a:hover { 
-    color: var(--cor-principal #45b326 )
+    color: var(--cor-principal);
+ } 
+ .card-title{
+   color:var(--cor-secundaria)
+ } 
+ .card-body{ 
+   background-color:aliceblue 
+ }  
+
+
+ .pilula{
+   background-color: darkolivegreen;
+   border-radius: 5px;
+   padding: 5px;
  }
